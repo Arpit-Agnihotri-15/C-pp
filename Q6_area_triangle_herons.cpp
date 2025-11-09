@@ -7,10 +7,6 @@ int main(){
     cin>>a>>b>>c;
     s=(a+b+c)/2;
     area = sqrt(s*(s-a)*(s-b)*(s-c));
-    
-
-
-
     cout<<"The area of the triangle is:"<<area<<endl;
     return 0;
 }

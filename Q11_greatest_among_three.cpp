@@ -4,6 +4,6 @@ int main(){
     int a,b,c;
     cout<<"Enter three numbers:";
     cin>>a>>b>>c;
-    a>b?(a>c?cout<<"a is greatest":cout<<"c is greatest"):(b>c?cout<<"b is greatest":cout<<"c is greatest");
+    a>b?(a>c?cout<<a:cout<<c): (b>c?cout<<b:cout<<c);
     return 0;   
 }
