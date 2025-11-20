@@ -15,7 +15,7 @@ int main(){
         v.push_back(x);
         
     }
-    if (v.size() > 3){
+    if (v.size() >= 3){
         v.erase(v.begin() + 2);
     }
     else    

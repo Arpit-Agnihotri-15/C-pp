@@ -16,9 +16,9 @@ int main() {
 
     for (int i = 0; i < n; i++) {
         if (i % 2 == 0)  
-            evenSum += arr[i];
+            {evenSum += arr[i];}
         else
-            oddSum += arr[i];
+            {oddSum += arr[i];}
     }
 
     cout << "Sum of even index elements: " << evenSum << endl;

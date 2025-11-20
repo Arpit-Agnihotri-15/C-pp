@@ -10,7 +10,7 @@ int main() {
     cin>>n;
     while(i<=n){
         cout<<i<<" ";
-        i+=1;
+        i++;
     }
     return 0;
 }

@@ -18,7 +18,7 @@ int main() {
             maxVal = arr[i];
         }
     }
-
+    
     cout << "Maximum value = " << maxVal << endl;
     return 0;
 }

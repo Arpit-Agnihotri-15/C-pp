@@ -14,7 +14,7 @@ int main() {
     }
 
     // Initialize min and second min
-    int min1 = INT_MAX, min2 = INT_MAX;
+    int min1 = INT_MIN, min2 = INT_MIN;
 
     for (int i = 0; i < n; i++) {
         if (arr[i] < min1) {
@@ -25,7 +25,7 @@ int main() {
         }
     }
 
-    if (min2 == INT_MAX)
+    if (min2 == INT_MIN)
         cout << "No second minimum value (all elements are same/only one element)" << endl;
     else
         cout << "Second minimum value = " << min2 << endl;
